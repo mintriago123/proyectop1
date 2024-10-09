@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal Bienestar Universitario Uleam</title>
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/tabs.css">
+    <link rel="stylesheet" href="src/css/subtabs.css">
+    <link rel="stylesheet" href="src/css/collapsible.css">
+    <script src="src/js/tabs.js"></script>
+    <script src="src/js/subtabs.js"></script>
+    <script src="src/js/subsubtab.js"></script>
+    <script src="src/js/collapse.js"></script>
+    <script>
+        document.getElementById("defaultOpen").click();
+    </script>
+</head>
+<body>
+
+
+    <div class="body">
+        <header>
+            <a href="index.html">
+            <img src="src/img/cropped-LOGO-1-200x61.png" alt="Bienestar Universitario Uleam">
+            </a>
+        </header>
+        <br>
+        <div class="bienvenida">
+            <p>Bienvenidos a la Dirección de Bienestar, Admisión y Nivelación Universitaria:
+                <br>
+                Mensaje:
+                <br>
+                Comunidad Universitaria, la Dirección de Bienestar Universitario tiene como finalidad brindar una serie de servicios orientados a mejorar la estadía de quienes formamos la Universidad Laica Eloy Alfaro de Manabí mediante la participación profesional, activa, ética y responsable de cada uno de los funcionarios que laboran en este dependencia, convirtiéndose así en un apoyo disponible en beneficio de su salud, de su estado psicosocial y en la entrega de espacios de formación cultural.
+                <br>
+                <h4>Lic. Víctor Zambrano Cedeño, Mg. Sc.
+                <br>
+                DIRECTOR DE BIENESTAR UNIVERSITARIO
+            </h4>
+            </p>
+        </div>    
+        <br>
+        <div class="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'tab1')">Quienes somos</button>
+                <button class="tablinks" onclick="openTab(event, 'tab2')">Becas y ayudas económicas</button>
+                <button class="tablinks" onclick="openTab(event, 'tab3')">Salud</button>
+                <button class="tablinks" onclick="openTab(event, 'tab4')">Servicios en Linea</button>
+                <button class="tablinks" onclick="openTab(event, 'tab5')">Contacto</button>
+            </div>
+            <!--div de quienes somos-->
+            <div id="tab1" class="tabcontent">
+                <h3>Quienes somos</h3>
+                <img src="src/img/cropped-LOGO-1-200x61.png" alt="Quienes somos">
+                <p>Bienestar Universitario Uleam es una organización que se dedica a brindar apoyo y recursos a los estudiantes de la Universidad Laica Eloy Alfaro de Manabí.</p>
+                <p>Nuestro objetivo es mejorar la calidad de vida de los estudiantes, ofreciendo un espacio seguro y acogedor para que puedan estudiar, socializar y desarrollar sus habilidades.</p>
+            </div>
+
+
+            <!--div de becas-->
+            <div id="tab2" class="tabcontent">
+                <h4>Requisitos generales para solicitar becas y ayudas económicas</h4>
+                <div class="tab">  
+                    <button class="subtablinks" onclick="opensubTab(event, 'subtab21')">Requisitos generales para becas y ayudas económicas</button>
+                    <button class="subtablinks" onclick="opensubTab(event, 'subtab22')">Tipos de becas</button>
+                    <button class="subtablinks" onclick="opensubTab(event, 'subtab23')">Tipos de ayudas económicas</button>
+
+                    <br> <br>
+                    <div id="subtab21" class="subtabcontent">
+                        <p> 
+                            <ul>
+                                <li>Ser estudiante regular;</li>
+                                <li>No tener asignatura reprobada;</li>
+                                <li>No haber sido sancionado disciplinariamente (Solicitará la Dirección de Bienestar Universitario);</li>
+                                <li>Otros específicos de acuerdo con el tipo de beca solicitada.</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div id="subtab22" class="subtabcontent">
+                        <button class="subsubtablinks" onclick="opensubsubTab(event, 'subtab221')">Becas por situacion socioeconomica</button>
+                        <button class="subsubtablinks" onclick="opensubsubTab(event, 'subtab222')">Becas para estudiantes con discapacidad</button>
+                        <button class="subsubtablinks" onclick="opensubsubTab(event, 'subtab223')">Becas por alto rendimiento academico</button>
+                        <button class="subsubtablinks" onclick="opensubsubTab(event, 'subtab225')">Becas por meritos cientificos - tecnicos innovacion emprendimiento</button>
+                        <button class="subsubtablinks" onclick="opensubsubTab(event, 'subtab224')">Becas por alto rendimiento deportivo y cultural</button>
+                        <br><br><br><br>
+                        <div id="subtab221" class="subsubtabcontent">
+                            <p>
+                                <ul>
+                                    <li>Copia de cédula de ciudadanía/identidad;</li>
+                                    <li>Certificado de estar matriculado. Asistencia a clases y disciplina (solicitar en secretaria de carrera);</li>
+                                    <li>Certificado que no estar afiliado al IESS (descargar del siguiente enlace: <a href="https://www.iess.gob.ec/afiliado-web/pages/opcionesGenerales/seleccionCertificadoDeAfiliacion.jsf">Certificado de Afiliado</a>);</li>
+                                    <li>Certificación de cuenta bancaria personal activa (puede ser una copia de la libreta de ahorros o la primera página del último estado de cuenta);</li>
+                                    <li>Solicitud de beca firmada (se genera desde el aplicativo de postulación);</li>
+                                    <li>Acta de compromiso firmada (se genera desde el aplicativo de postulación);</li>
+                                    <li>Notas / Récord académico (2022-1 2022-2);</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div id="subtab222" class="subsubtabcontent">
+                            <p>
+                                <ul>
+                                    <li>Copia a color de cedula y carnet de discapacidad emitido por el Conadis o MSP;</li>
+                                    <li>Certificado de estar matriculado. Asistencia a clases y disciplina (solicitar en secretaria de carrera);</li>
+                                    <li>Certificación de cuenta bancaria personal activa (puede ser una copia de la libreta de ahorros o la primera página del último estado de cuenta);</li>
+                                    <li>Solicitud de beca firmada (se genera desde el aplicativo de postulación);</li>
+                                    <li>Acta de compromiso firmada (se genera desde el aplicativo de postulación);</li>
+                                    <li>Notas / Récord académico (2022-1 2022-2).</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div id="subtab223" class="subsubtabcontent">
+                            <p>
+                                <ul>
+                                    <li>Copia de cédula de ciudadanía/identidad;</li>
+                                    <li>Certificado de estar matriculado. Asistencia a clases, disciplina y de haber obtenido el más alto promedio de la carrera (solicitar en secretaria de carrera);</li>
+                                    <li>Certificación de cuenta bancaria personal activa (puede ser una copia de la libreta de ahorros o la primera página del último estado de cuenta);</li>
+                                    <li>Acta de compromiso firmada (se genera desde el aplicativo de postulación).</li>
+                                    <li>Notas / Récord académico (2022-1 2022-2).</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div id="subtab225" class="subsubtabcontent">
+                            <p>
+                                <ul>
+                                    <li>Copia de cédula de ciudadanía/identidad;</li>
+                                    <li>Certificado de estar matriculado. Asistencia a clases y disciplina (solicitar en secretaria de carrera);</li>
+                                    <li>Certificación de cuenta bancaria personal activa (puede ser una copia de la libreta de ahorros o la primera página del último estado de cuenta);</li>
+                                    <li>Informe del Decano de la Unidad Académica, sobre la relevancia de las actividades que realizó o está realizando incluyendo justificativos de soporte;</li>
+                                    <li>Solicitud de beca firmada (se genera desde el aplicativo de postulación);</li>
+                                    <li>Acta de compromiso firmada (se genera desde el aplicativo de postulación);</li>
+                                    <li>Notas / Récord académico (2022-1 2022-2).</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div id="subtab224" class="subsubtabcontent">
+                            <p>
+                                <ul>
+                                    <li>Copia de cédula de ciudadanía/identidad;</li>
+                                    <li>Certificado de estar matriculado. Asistencia a clases y disciplina (solicitar en secretaria de carrera);</li>
+                                    <li>Certificación de cuenta bancaria personal activa (puede ser una copia de la libreta de ahorros o la primera página del último estado de cuenta);</li>
+                                    <li>Informe del Decano de la Unidad Académica, sobre la relevancia de las actividades que realizó o está realizando incluyendo justificativos de soporte;</li>
+                                    <li>Solicitud de beca firmada (se genera desde el aplicativo de postulación);</li>
+                                    <li>Acta de compromiso firmada (se genera desde el aplicativo de postulación);</li>
+                                    <li>Notas / Récord académico (2022-1 2022-2).</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="subtab23" class="subtabcontent">
+                        <div class="tab">
+                            <button class="subsubtablinks" onclick="opensubsubTab(event, 'subtab231')">Ayuda por acciones positivas</button>
+                            <button class="subsubtablinks" onclick="opensubsubTab(event, 'subtab232')">Ayuda para movilidad académica (Postgrado)</button>
+                            <button class="subsubtablinks" onclick="opensubsubTab(event, 'subtab233')">Ayuda para asistir a seminarios, cursos de capacitación nacionales e internacionales</button>
+                            <br><br><br><br>
+                            <div id="subtab231" class="subsubtabcontent">
+                                <p>
+                                    <ul>
+                                        <li>Copia de cédula de ciudadanía/identidad;</li>
+                                        <li>Certificado de estar matriculado. Asistencia a clases y disciplina (solicitar en secretaria de carrera);</li>
+                                        <li>Solictud de acciones afirmaticas;</li>
+                                        <li>Certificado que avale que pertenece a grupos vulnerables, emitido por el IESS o el MSP (Si aplica por enfermedad catastrófica);</li>
+                                        <li>Informe socioeconómico del/de la trabajador(a) social;</li>
+                                        <li>Certificación de cuenta bancaria personal activa (puede ser una copia de la libreta de ahorros o la primera página del último estado de cuenta);</li>
+                                        <li>Solicitud de ayuda económica firmada (se genera desde el aplicativo de postulación);</li>
+                                        <li>Acta de compromiso firmada (se genera desde el aplicativo de postulación).</li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div id="subtab232" class="subsubtabcontent">
+                                <p>
+                                    <ul>
+                                        <li>Copia de cédula de ciudadanía/identidad;</li>
+                                        <li>Certificado de estar matriculado. Asistencia a clases y disciplina (solicitar en secretaria de carrera);</li>
+                                        <li>Solicitud expresa a la Dirección de Bienestar Universitario para realizar capacitación, congreso y participación en concursos presentados por la Facultad;</li>
+                                        <li>Carta del Decano, proporcionando el permiso correspondiente;</li>
+                                        <li>Informe del/la Trabajador(a) Social;</li>
+                                        <li>Certificación de cuenta bancaria personal activa (puede ser una copia de la libreta de ahorros o la primera página del último estado de cuenta);</li>
+                                        <li>Solicitud de ayuda económica firmada (se genera desde el aplicativo de postulación);</li>
+                                        <li>Acta de compromiso firmada (se genera desde el aplicativo de postulación);</li>
+                                        <li>Notas / Récord académico (2022-1 2022-2).</li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div id="subtab233" class="subsubtabcontent">
+                                <p>
+                                    <ul>
+                                        <li>Copia de cédula de ciudadanía/identidad;</li>
+                                        <li>Certificado de estar matriculado. Asistencia a clases y disciplina (solicitar en secretaria de carrera);</li>
+                                        <li>Solicitud expresa a la Dirección de Bienestar Universitario para realizar capacitación, congreso y participación en concursos presentados por la Facultad;</li>
+                                        <li>Carta del Decano, proporcionando el permiso correspondiente;</li>
+                                        <li>Invitación personal a la capacitación, congreso y participación en concurso;</li>
+                                        <li>Certificación de cuenta bancaria personal activa (puede ser una copia de la libreta de ahorros o la primera página del último estado de cuenta);</li>
+                                        <li>Solicitud de ayuda económica firmada (se genera desde el aplicativo de postulación);</li>
+                                        <li>Acta de compromiso firmada (se genera desde el aplicativo de postulación);</li>
+                                        <li>Notas / Récord académico (2022-1 2022-2).</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--div de salud-->
+            <div id="tab3" class="tabcontent">
+                <h3>Salud</h3>
+                <div class="tab">
+                    <button class="subtablinks" onclick="opensubTab(event, 'subtab31')">Medicina General</button>
+                    <button class="subtablinks" onclick="opensubTab(event, 'subtab32')">Odontología</button>
+                    <button class="subtablinks" onclick="opensubTab(event, 'subtab33')">Laboratorio Clínico</button>
+                    <button class="subtablinks" onclick="opensubTab(event, 'subtab34')">Fisioterapia</button>
+                    <button class="subtablinks" onclick="opensubTab(event, 'subtab35')">Nutrición</button>
+                </div>
+                <div id="subtab31" class="subtabcontent">
+                    <p>
+                        <ul>
+                            <li>Atención médica presencial.</li>
+                            <li>Acompañamiento profesional por patologías virtual.</li>
+                            <li>Emisión de documentos de validación de asistencia a consulta médica.</li>
+                            <li>Validación de certificados médicos según atenciones en áreas de salud pública.</li>
+                            <li>Intervención en procesos de derivación interna de patologías a especialidades que se brindan en el área de salud de Bienestar Universitario.</li>
+                            <li>Promover campañas de salud preventivas.</li>
+                            <li>Acompañamiento a estudiantes en estado de gestación.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div id="subtab32" class="subtabcontent">
+                    <p>
+                        <ul>
+                            <li>Atención preventiva.</li>
+                            <li>Diagnostico clínico odontológico.</li>
+                            <li>Fluorizaciones.</li>
+                            <li>Profilaxis.</li>
+                    </ul>
+                    </p>
+                </div>
+                <div id="subtab33" class="subtabcontent">
+                    <p>
+                        <ul>
+                            <li>Hematología</li>
+                            <li>Serología</li>
+                            <li>Bioquímica clínica</li>
+                            <li>Sero inmunología</li>
+                            <li>Uroanálisis</li>
+                            <li>Parasitología</li>
+                    </ul></p>
+                </div>
+                <div id="subtab34" class="subtabcontent">
+                    <p>
+                        <ul>
+                            <li>Entrevista y valoración de casos.</li>
+                            <li>Agendamiento de sesiones previo diagnóstico.</li>
+                            <li>Terapias de medios físicos (compresas químicas calientes y frías).</li>
+                            <li>Aplicación de equipos de rehabilitación (ultrasonido, magneto y corrientes terapéuticas).</li>
+                            <li>Ejercicios de readactación al sobreesfuerzo.</li>
+                            <li>Valoración final de sesiones.</li>
+                    </ul>
+                    </p>
+                </div>
+                <div id="subtab35" class="subtabcontent">
+                    <p>
+                        <ul>
+                            <li>Charlas sobre alimentación saludable.</li>
+                            <li>Supervisión de los comedores, bares y fotocopiadores dentro de los predios de la Uleam.</li>
+                            <li>Evaluación de estado nutricional.</li>
+                            <li>Planes alimenticios personalizados.</li>
+                            <li>Seguimiento nutricional.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <!--div de servicios en linea-->
+            <div id="tab4" class="tabcontent">
+                <h3>Servicios en Linea</h3>
+                <a href="areapersonal.html">
+                    <img src="" alt="Acceder al servicio de Agendamiento">
+                </a>
+            </div>
+
+            <!--div de contacto-->
+            <div id="tab5" class="tabcontent">
+                <h3>Contacto</h3>
+                <p>
+                    <ul>
+                        <li>Dirección: Av. Eloy Alfaro de Manabí, Km 3.5, Manta, Ecuador</li>
+                        <li>Teléfono: 04-2581200</li>
+                        <li>Email: bienestar@uleam.edu.ec</li>
+                    </ul>
+                </p>    
+            </div>
+        </div>
+        <br>
+        <footer>
+            <p>Derechos reservados © 2024</p>
+            <p>Michael Agustin Intriago Benitez</p>
+            <p>Programacion Web 1</p>
+            <p>Proyecto Gestion de Bienestar Universitario</p>
+        </footer>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+/* Animación de desvanecimiento */
+@keyframes fadeEffect {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Estilos para las pestañas */
+.tab {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4caf50;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap; /* Asegura que las pestañas se ajusten en pantallas pequeñas */
+}
+
+.tab button {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: background-color 0.3s ease;
+    flex: 1; /* Hace que las pestañas se distribuyan de manera uniforme */
+    text-align: center;
+}
+
+.tab button:hover {
+    background-color: #316d33;
+}
+
+.tab button.active {
+    background-color: #255226;
+}
+
+/* Estilos para el contenido de las pestañas */
+.tabcontent {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+    animation: fadeEffect 1s ease;
+    display: none;
+}
+
+/* Estilos para las subtabs */
+.subtabcontent, .subsubtabcontent {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    display: none;
+}
+
+/* Botones de las subtabs */
+.subtablink, .subsubtablink {
+    background-color: #b8cae2;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    margin: 0 5px; /* Alineación más suave entre los botones */
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.subtablink:hover, .subsubtablink:hover {
+    background-color: #8eb5e7;
+}
+
+.subtablink.active, .subsubtablink.active {
+    background-color: #8eb5e7;
+}
+
+/* Mejoras adicionales para móviles */
+@media (max-width: 768px) {
+    .tab button, .subtablink, .subsubtablink {
+        flex: 1; /* Hace que las pestañas y subpestañas ocupen toda la fila en pantallas pequeñas */
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}

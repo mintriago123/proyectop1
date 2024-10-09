@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/forms.css">
+
+</head>
+<body>
+    <header>
+        <a href="index.html">
+        <img src="src/img/cropped-LOGO-1-200x61.png" alt="Bienestar Universitario Uleam">
+        </a>
+    </header>
+    <button id="logout" style="display: none;">Cerrar sesión</button> <!-- Botón de cerrar sesión -->
+    
+    <div class="mensaje" id="mensaje"></div>
+
+
+    <div id="usuarioInfo" class="info">
+        <img id="perfil" src="src/img/perfil.png" style="display: none;">
+        <h2 id="estd" style="display: none;">Bienvenido Estudiante <br> </h2>
+        <h2 id="pers" style="display: none;">Bienvenido miembro del Personal</h2>
+        <h2>Información del Usuario</h2>
+        <p>
+            <div id="nombre"></div>
+            <div id="apellido"></div>
+            <div id="direccion"></div>
+        </p>
+
+    </div>
+
+    
+
+    <form id="loginForm">
+        <label for="correo">Correo:</label> <br>
+        <input type="email" id="correo" name="correo" required><br><br>
+        <label for="contrasena">Contraseña:</label><br>
+        <input type="password" id="contrasena" name="contrasena" required><br><br>
+        <button type="submit">Iniciar sesión</button>
+        
+    </form>
+    <div>
+
+    </div>
+    <div id="citasEstudiante" style="display:none;">
+    <h2>Agendar una cita</h2>
+    <ul id="listaCitas"></ul>
+    </div>
+
+    <div id="citasPersonal" style="display:none;">
+    <h2>Solicitudes de citas pendientes</h2>
+    <ul id="listaSolicitudes"></ul>
+    </div>
+
+    </div>
+    <script src="src/js/jsonmanegent.js"></script>
+
+</body>
+</html>

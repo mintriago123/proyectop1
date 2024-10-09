@@ -1,0 +1,67 @@
+/* Estilos para los inputs */
+input, textarea {
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    width: 100%; /* Ajuste para que ocupe el 100% del contenedor */
+    max-width: 400px; /* Limita el ancho máximo */
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #7d817f;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #4caf50; /* Cambia el color del borde al estar en foco */
+    outline: none; /* Elimina el borde azul predeterminado */
+}
+
+/* Estilos para formularios */
+form, .loginForm {
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para mayor elegancia */
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    max-width: 600px; /* Tamaño máximo ajustado */
+    border: 1px solid #e2e9e6;
+}
+
+/* Estilos para botones */
+button {
+    border-radius: 8px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #316d33;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    background-color: #255226;
+    box-shadow: none;
+}
+
+/* Ajustes para el área de texto */
+textarea {
+    height: 150px;
+    resize: vertical; /* Permite redimensionar solo verticalmente */
+}
+
+/* Estilos para mensajes */
+.mensaje {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+}

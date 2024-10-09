@@ -1,0 +1,114 @@
+[
+  {
+    "correo": "usuario1@ejemplo.com",
+    "contrasena": "password1",
+    "nombre": "Michael Andrés",
+    "apellido": "Intriago Romero",
+    "direccion": "Calle 123, Ciudad A",
+    "rol": "estudiante"
+  },
+  {
+    "correo": "usuario2@ejemplo.com",
+    "contrasena": "password2",
+    "nombre": "Andrea Isabel",
+    "apellido": "Perez González",
+    "direccion": "Avenida 456, Ciudad B",
+    "rol": "estudiante"
+  },
+  {
+    "correo": "admin@ejemplo.com",
+    "contrasena": "12345678",
+    "nombre": "Luis Alberto",
+    "apellido": "Martinez Torres",
+    "direccion": "Boulevard 789, Ciudad C",
+    "rol": "personal"
+  },
+  {
+    "correo": "usuario4@ejemplo.com",
+    "contrasena": "password4",
+    "nombre": "Juan Carlos",
+    "apellido": "Gonzalez Pérez",
+    "direccion": "Calle 321, Ciudad D",
+    "rol": "personal"
+  },
+  {
+    "correo": "usuario5@ejemplo.com",
+    "contrasena": "password5",
+    "nombre": "Maria Fernanda",
+    "apellido": "Lopez Sánchez",
+    "direccion": "Avenida 654, Ciudad E",
+    "rol": "estudiante"
+  },
+  {
+    "correo": "usuario6@ejemplo.com",
+    "contrasena": "password6",
+    "nombre": "Ana María",
+    "apellido": "Rodriguez Herrera",
+    "direccion": "Calle 987, Ciudad F",
+    "rol": "estudiante"
+  },
+  {
+    "correo": "usuario7@ejemplo.com",
+    "contrasena": "password7",
+    "nombre": "Javier Antonio",
+    "apellido": "Sanchez Ruiz",
+    "direccion": "Boulevard 234, Ciudad G",
+    "rol": "personal"
+  },
+  {
+    "correo": "usuario8@ejemplo.com",
+    "contrasena": "password8",
+    "nombre": "Pablo Emilio",
+    "apellido": "Torres Martínez",
+    "direccion": "Calle 876, Ciudad H",
+    "rol": "personal"
+  },
+  {
+    "correo": "usuario9@ejemplo.com",
+    "contrasena": "password9",
+    "nombre": "Carmen Sofía",
+    "apellido": "Diaz Salazar",
+    "direccion": "Avenida 543, Ciudad I",
+    "rol": "estudiante"
+  },
+  {
+    "correo": "usuario10@ejemplo.com",
+    "contrasena": "password10",
+    "nombre": "Antonio José",
+    "apellido": "Fernandez Castro",
+    "direccion": "Calle 210, Ciudad J",
+    "rol": "personal"
+  },
+  {
+    "correo": "usuario11@ejemplo.com",
+    "contrasena": "password11",
+    "nombre": "Sara Isabel",
+    "apellido": "Garcia López",
+    "direccion": "Boulevard 345, Ciudad K",
+    "rol": "estudiante"
+  },
+  {
+    "correo": "usuario13@ejemplo.com",
+    "contrasena": "password13",
+    "nombre": "Lucia Fernanda",
+    "apellido": "Ruiz Gómez",
+    "direccion": "Avenida 678, Ciudad L",
+    "rol": "estudiante"
+  },
+  {
+    "correo": "usuario15@ejemplo.com",
+    "contrasena": "password15",
+    "nombre": "Victoria Elena",
+    "apellido": "Jimenez Vargas",
+    "direccion": "Calle 456, Ciudad M",
+    "rol": "estudiante"
+  },
+  {
+    "correo": "usuario16@ejemplo.com",
+    "contrasena": "password16",
+    "nombre": "Fernando Javier",
+    "apellido": "Prieto Araujo",
+    "direccion": "Boulevard 123, Ciudad N",
+    "rol": "personal"
+  }
+]
